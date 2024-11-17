@@ -28,6 +28,7 @@ class BotKeys(enum.Enum):
     LAST_TRADE_TIME = "last_trade_time"
     METADATA = "metadata"
     ORDERS = "orders"
+    POSITIONS = "positions"
 
 
 class ProductsSubscriptionsKeys(enum.Enum):

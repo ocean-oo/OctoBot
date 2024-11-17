@@ -57,6 +57,11 @@ def _format_trade(trade: dict, exchange_name: str, bot_id: str):
         }
 
 
+def format_positions(positions: list, exchange_name: str) -> list:
+    #todo
+    return []
+
+
 def format_orders(orders: list, exchange_name: str) -> list:
     return [
         {
